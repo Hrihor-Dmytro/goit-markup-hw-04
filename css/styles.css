@@ -321,20 +321,15 @@ img {
 
   width: 44px;
   height: 44px;
-  border-radius: 50%;
-}
 
+  border-radius: 50%;
+  fill: #afb1b8;
+}
 .social-network-link:hover,
 .social-network-link:focus {
   background-color: var(--accent);
   fill: var(--primeri-white-color);
 }
-
-.social-icon {
-  width: 20px;
-  height: 20px;
-}
-/* customers */
 
 .customers {
   display: flex;
@@ -354,11 +349,6 @@ img {
   border-radius: 4px;
 }
 
-.custors-logo {
-  width: 106px;
-  height: 60px;
-}
-
 .customers-box:hover,
 .customers-box:focus {
   fill: var(--accent);
@@ -372,6 +362,12 @@ img {
 
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer-box {
+  display: flex;
+}
+.footer-contacts {
+  margin-right: 70px;
 }
 
 .logo.futter {
@@ -404,6 +400,42 @@ img {
 .footer-logo {
   color: var(--primeri-white-color);
 }
+
+.join {
+  padding-top: 12px;
+  color: var(--primeri-white-color);
+
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.join-network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+}
+.join-network-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: var(--primeri-white-color);
+}
+.join-network-link:hover,
+.join-network-link:focus {
+  background-color: var(--accent);
+}
 /* -------------доп разметка портфолио ---------*/
 .portfolio-nav {
   display: flex;
@@ -433,6 +465,8 @@ img {
 .button-filtr:focus {
   background-color: var(--accent);
   color: var(--primeri-white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /*--------разметка карточек портфолио----- */
 .card.list {

@@ -355,6 +355,10 @@ img {
   border: 1px solid var(--primery-text-color);
   border-radius: 4px;
 }
+.custors-logo {
+  width: 50%;
+  height: 50%;
+}
 
 .customers-link:hover,
 .customers-link:focus {

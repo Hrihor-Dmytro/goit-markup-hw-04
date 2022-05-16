@@ -108,6 +108,8 @@ img {
 }
 .auth-nav .link {
   color: var(--primery-text-color);
+  display: flex;
+  align-items: center;
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
